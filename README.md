@@ -2,12 +2,12 @@
 
 # 数式を含むPDFをMarkdownに変換
 **概要**
-- 数式と表を含むPDFをOCRしてMarkdownに変換することができます．
+- 数式と表を含むPDFをOCRしてMarkdownに変換します．
 - Meta AIのNougat (Neural Optical Understanding for Academic Documents)[1,2]を使用します．
 - 無料版Google Colabで実行できます[3]．
 
 **詳細**
-- 2段組みなど複雑な構成にも対応できます[1,2]．
+- 2段組みなど複雑な構造にも対応しています[1,2]．
 - 図には対応していません．
 - Markdownファイル出力後，Scrapbox記法のtxtファイルに変換できます．
 
