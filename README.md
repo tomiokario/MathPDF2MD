@@ -2,14 +2,18 @@
 
 # 数式を含むPDFをMarkdownに変換
 **概要**
-- 数式を含むPDFをOCRしてMarkdownに変換することができます．
+- 数式と表を含むPDFをOCRしてMarkdownに変換することができます．
 - Nougat (Neural Optical Understanding for Academic Documents)[1,2]を使用します．
 - 無料版Google Colabで実行できます[3]．
 
-**License**
+**細かい条件**
+- 2段組みなど複雑な構成にも対応できます．
+- 図には対応していません．
+- Markdownファイル出力後，Scrapbox記法のtxtファイルに変換できます．
+
+**NougatのLicense**
 - Nougat codebase is licensed under [MIT](https://opensource.org/license/mit/) [1,2].
 - Nougat model weights are licensed under [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/deed.ja) [1,2].
-
 
 **参考**
 1. [Nougat: Neural Optical Understanding for Academic Documents | Project page](https://facebookresearch.github.io/nougat/)
