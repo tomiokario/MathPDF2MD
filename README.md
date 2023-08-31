@@ -6,14 +6,14 @@
 - Nougat (Neural Optical Understanding for Academic Documents)[1,2]を使用します．
 - 無料版Google Colabで実行できます[3]．
 
-**細かい条件**
-- 2段組みなど複雑な構成にも対応できます．
-- 図には対応していません．
-- Markdownファイル出力後，Scrapbox記法のtxtファイルに変換できます．
-
 **NougatのLicense**
 - Nougat codebase is licensed under [MIT](https://opensource.org/license/mit/) [1,2].
 - Nougat model weights are licensed under [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/deed.ja) [1,2].
+
+**その他**
+- 2段組みなど複雑な構成にも対応できます．
+- 図には対応していません．
+- Markdownファイル出力後，Scrapbox記法のtxtファイルに変換できます．
 
 **参考**
 1. [Nougat: Neural Optical Understanding for Academic Documents | Project page](https://facebookresearch.github.io/nougat/)
